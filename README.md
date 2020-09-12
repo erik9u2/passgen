@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/bf870528-eb8c-4499-8a4b-95c2efd52007/deploy-status)](https://app.netlify.com/sites/passgen-kralj-dev/deploys)
 
-Simple and secure password generator app made in Svelte. You can see it out in action [here](https://passgen.kralj.dev).
+Simple and secure password generator app made in Svelte. You can see it in action [here](https://passgen.kralj.dev).
 
 ## Install
 
