@@ -77,24 +77,40 @@
 	<h1>Erik's Secure Password Generator</h1>
 	<div class="options">
 		<label>
-			<input type="checkbox" bind:checked={includeNumbers} on:change={handleGenerate}>
+			<input
+                type="checkbox"
+                bind:checked={includeNumbers}
+                on:change={handleGenerate}>
 			<span>Include numbers</span>
 		</label>
 		<label>
-			<input type="checkbox" bind:checked={includeLowercase} on:change={handleGenerate}>
+			<input
+                type="checkbox"
+                bind:checked={includeLowercase}
+                on:change={handleGenerate}>
 			<span>Include lowercase characters</span>
 		</label>
 		<label>
-			<input type="checkbox" bind:checked={includeUppercase} on:change={handleGenerate}>
+			<input
+                type="checkbox"
+                bind:checked={includeUppercase}
+                on:change={handleGenerate}>
 			<span>Include uppercase characters</span>
 		</label>
 		<label>
-			<input type="checkbox" bind:checked={includeSymbols} on:change={handleGenerate}>
+			<input
+                type="checkbox"
+                bind:checked={includeSymbols}
+                on:change={handleGenerate}>
 			<span>Include symbols</span>
 		</label>
 		<label>
 			<span>Length:</span>
-			<input type="number" step="1" bind:value={length} on:change={handleGenerate}>
+			<input
+                type="number"
+                step="1"
+                bind:value={length}
+                on:change={handleGenerate}>
 		</label>
 		<button on:click={handleGenerate}>
 			Generate
@@ -103,9 +119,14 @@
 	<div>
 		<label>
 			<span>Your generated password:</span>
-			<input type="text" bind:value={password} bind:this={passwordInput}>
+			<input
+                type="text"
+                bind:value={password}
+                bind:this={passwordInput}>
 		</label>
-		<button on:click={handleCopy} disabled={copyDisabled}>
+		<button
+            on:click={handleCopy}
+            disabled={copyDisabled}>
 			{copyText}
 		</button>
 	</div>
