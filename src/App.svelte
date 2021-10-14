@@ -133,9 +133,9 @@
 	<p>It is recommended to store this password in a password manager of your choice (e.g. <a href="https://support.apple.com/en-us/HT204085">iCloud Keychain</a>, <a href="https://passwords.google.com">Google Password Manager</a>, <a href="https://1password.com">1Password</a> or <a href="https://www.dashlane.com">Dashlane</a>).
 	<p>Password is generated on the client-side and is never sent to a server.</p>
 	<p>This is an open-source project <a href="https://github.com/erikvimz/passgen/blob/master/LICENSE">licensed under MIT</a> and accessible on <a href="https://github.com/erikvimz/passgen">GitHub</a>.</p>
-	<p>Made in 2020 by a Geek🤓 and hosted on <a href="https://firebase.google.com/">Firebase</a>.</p>
+	<p>Made in 2020 by a 🤓</p>
 </main>
 
 <style>
-	
+
 </style>
